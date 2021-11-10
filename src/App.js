@@ -7,6 +7,8 @@ import { useDispatch, useSelector } from "react-redux";
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import BottomNavBar from './components/BottomNavBar';
+import Footer from './components/Footer';
+import BottomFooter from './components/BottomFooter';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           />
         ))}
       </Switch>
+      <Footer />
+      <BottomFooter />
     </div>
   );
 }

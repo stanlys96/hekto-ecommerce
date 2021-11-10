@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '5vh',
     color: '#0D0E43',
     zIndex: '5',
+    borderBottom: "1px solid #888888",
   },
   container: {
     maxWidth: '1100px',
